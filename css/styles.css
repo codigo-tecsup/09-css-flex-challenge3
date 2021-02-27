@@ -25,3 +25,34 @@ body > h2 + hr {
 /*
 ****************** NO BORRAR LOS ESTILOS INICIALES
 */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #56727c;
+	height: 50px;
+}
+.header__nav {
+	display: flex;
+}
+.header__item {
+	color: #eee;
+	text-decoration: none;
+	padding: 3px 15px;
+}
+.header__item:hover {
+	background-color: #5c7c86;
+}
+.header__item.selected {
+	background-color: #3d545c;
+	border-radius: 5px;
+}
+
+.headerLogo {
+	min-width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
